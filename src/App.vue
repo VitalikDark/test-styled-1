@@ -2,7 +2,7 @@
   <div id="app">
     <ThemeProvider :theme="theme">
       <HelloWorld/>
-      <Box :px="['16px', '14px']" :py="[5, 6]">
+      <Box border="1px solid grey" p="100px">
         1
       </Box>
     </ThemeProvider>

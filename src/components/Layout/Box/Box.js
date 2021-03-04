@@ -1,16 +1,12 @@
 import styled from "vue-styled-components";
-import { space, width, fontSize, color } from "styled-system";
+import { space, width, fontSize, color, border } from "styled-system";
+import properties from "@/components/Layout/properties";
 
-export default styled("div", {
-  color: String,
-  bg: String,
-  backgroundColor: String,
-  px: [Number, String, Array],
-  py: [Number, String, Array]
-})`
+export default styled("div", properties)`
   ${space}
   ${width}
   ${fontSize}
   ${color}
+  ${border}
 `;
 
